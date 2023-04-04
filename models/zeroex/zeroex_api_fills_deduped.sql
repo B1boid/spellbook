@@ -1,6 +1,6 @@
 {{ config(
         alias ='api_fills_deduped',
-        post_hook='{{ expose_spells(\'["ethereum","arbitrum", "optimism", "polygon","fantom","avalanche_c"]\',
+        post_hook='{{ expose_spells_hide_trino(\'["ethereum","arbitrum", "optimism", "polygon","fantom","avalanche_c"]\',
                                 "project",
                                 "zeroex",
                                 \'["rantum","bakabhai993"]\') }}'

@@ -1,6 +1,6 @@
 {{ config(
         alias ='all_events',
-        post_hook='{{ expose_spells(\'["ethereum"]\',
+        post_hook='{{ expose_spells_hide_trino(\'["ethereum"]\',
                                     "project",
                                     "cryptopunks",
                                     \'["cat"]\') }}'
